@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+
+<body>
+    <form action="" method="GET">
+        <!-- Text -->
+        <div>
+            <label for="firstname">First Name:</label>
+            <br>
+            <input name="firstname" type="text">
+        </div>
+        <div>
+            <label for="secondname">Second Name:</label>
+            <br>
+            <input name="secondname" type="text">
+        </div>
+        <!-- Email -->
+        <div>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email">
+        </div>
+        <!-- Text Area -->
+        <div>
+            <label for="message">
+                Message
+            </label>
+            <br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+        </div>
+        <!-- Select -->
+        <div>
+            <label for="sex">Sex</label>
+            <br>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="not specified">Not Specified</option>
+            </select>
+        </div>
+        <!-- Number -->
+        <div>
+            <label for="age">Age: </label>
+            <br>
+            <input type="number" name="age" id="_age" min="1">
+        </div>
+        <!-- Date -->
+        <div>
+            <label for="date">Date: </label>
+            <br>
+            <input type="date" name="date" id="_date">
+        </div>
+        <!-- Radio -->
+        <div>
+            <label for="membership">Membership:</label>
+            <input name="membership" type="radio" value="simple" id="_simple"> Simple
+            <input name="membership" type="radio" value="standard" id="_standard" checked> Standard
+            <input name="membership" type="radio" value="simple" id="_simple"> Super
+        </div>
+        <!-- checkbox -->
+        <div>
+            <label for="package">Membership:</label>
+            <input name="package" type="checkbox" value="simple" id="_simple1"> Simple
+            <input name="package" type="checkbox" value="standard" id="_standard1" checked> Standard
+            <input name="package" type="checkbox" value="simple" id="_simple1"> Super
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
