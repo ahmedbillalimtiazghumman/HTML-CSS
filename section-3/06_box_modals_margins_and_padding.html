@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Modal , Margin and Padding</title>
+    <style>
+        /* css Rest */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: #f4f4f4;
+            border: 2px #777 solid;
+            width: 500px;
+            /* Equal padding */
+            padding: 20px;
+            /* By setting all pading properties */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            box-sizing: border-box;
+            /* Set padding different properties of padding in single line */
+            /* padding top , right ,bottom , left */
+            padding: 10px 20px 10px 20px;
+            /* short hand padding (top,bottom and left,right)*/
+            padding: 10px 20px;
+            /* Margin */
+            /* Margin works as padding but it is outside of the div */
+            margin: 10px 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Box 1</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam est eum odit, voluptatibus quod qui
+            consequuntur sapiente vel dicta labore.</p>
+    </div>
+    <div class="box">
+        <h1>Box 2</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam nesciunt omnis ducimus cum saepe
+            corporis dolorum repellat. Possimus, itaque.</p>
+    </div>
+    <div class="box">
+        <h1>Box 3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolore tenetur eius in hic sint neque earum
+            voluptatibus numquam minima!
+        </p>
+    </div>
+    <div class="box">
+        <h1>Box 4</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nobis blanditiis eos molestias ipsa repellat
+            atque sunt rerum dolorum voluptatum?</p>
+    </div>
+</body>
+
+</html>
